@@ -12,20 +12,11 @@
     crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <title>Practice Bootstrap</title>
-  <!-- Delete when done -->
-  <style>
-    * {
-      outline: solid 1px red;
-    }
 
-    .row div {
-      height: 100px;
-    }
-  </style>
-  <!-- Delete when done -->
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
+  <div class="wrapper flex-grow-1">
   <header>
     <div class="container-fluid d-flex">
       <div class="row justify-content-center">
@@ -72,7 +63,7 @@
   <!-- main structure -->
   <main class="main container-fluid">
     <div>
-      <div class="row photo">
+      <div class="row photo w-100">
         <div class="music col-lg-7 text-light ml text-center">Music is Life</div>
       </div>
       <div class="row black box bg-dark text-light">
@@ -80,7 +71,7 @@
           <p>second box black</p>
         </div>
       </div>
-      <div class="row images justify-content-around">
+      <div class="row images justify-content-center ">
         <div class="col-3">pic one</div>
         <div class="col-3">pic two</div>
         <div class="col-3">pic three</div>
@@ -88,8 +79,8 @@
     </div>
   </main>
   <!-- footer structure complete -->
-  <footer class="footer container-fluid">
-    <div class="row bottom bg-dark text-light">
+  <footer class="footer container-fluid  bg-dark">
+    <div class="row bottom text-light ">
       <div class="col-6">
         <div class="row">
           <div class="col-4">yes!</div>
