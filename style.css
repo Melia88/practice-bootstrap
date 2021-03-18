@@ -1,0 +1,24 @@
+/* this will make the header and footer stay at the top and bottom of the page */
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+ 
+.photo {
+  background-image: url("https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  height: 35vh;
+  background-position:bottom;
+}
+
+footer {
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+
